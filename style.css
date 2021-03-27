@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: cornflowerblue;
+}
+
+.logo_vw {
+    display: flex;
+    justify-content: center;
+}
+
+.main-image {
+    width: 350px;
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+    padding: 10px;
+    font-size: 40px;
+}
+
+h2 {
+    color: blue;
+}
+
+.menu {
+    position: relative;
+    margin: 10px;
+    text-align: center;
+    border-top: 2px solid blue;
+    border-bottom: 2px solid blue;
+    font-size: 25px;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px 100px;
+    margin: 5px;
+    list-style-type: none;
+}
+
+li{
+    padding: 0px 30px;
+}
+
+.menus:hover {
+    color: rgb(255, 0, 0);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: blue;
+}
+
+main form {
+    float: right;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 10px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+}
+
+
+.button {
+    color: white;
+    width: 50px;
+    height: 30px;
+    background-image: linear-gradient(blue, lightblue);
+    box-shadow: blue;
+    border-radius: 10px;
+}
+
+.dato {
+    padding: 10px;
+}
+
+main {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+section {
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 50%;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.orador {
+    display: flex;
+    padding: 10px;
+}
+
+.datos_orador {
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    padding: 20px;
+    color: blue;
+}
+
+.foto_orador {
+    border-radius: 50%;
+}
+
+.mapa {
+    width: 50%;
+    padding: 10px;
+    border-radius: 30px;
+
+}
+
+.categorias {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.logo {
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    text-align: justify;
+    padding: 15px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border-top: 2px solid blue;
+    border-bottom: 2px solid blue;
+    border-radius: 5px;
+}
+
+.dato {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
